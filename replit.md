@@ -2,9 +2,9 @@
 
 ## Overview
 
-This is a professional portfolio website for Yahia Hassan, a Product Management Professional. The application is built as a full-stack web application showcasing career achievements, projects, and providing a contact mechanism for potential opportunities.
+This is a professional portfolio website for Yahia Hassan, a Product Management Professional. The application is built as a static React application optimized for GitHub Pages deployment, showcasing career achievements, projects, and providing contact functionality through email integration.
 
-The architecture follows a monorepo structure with separate client and server directories, utilizing modern web technologies for both frontend and backend development.
+The architecture is now fully client-side with no server dependencies, making it perfect for static hosting on GitHub Pages.
 
 ## System Architecture
 
@@ -14,33 +14,23 @@ The architecture follows a monorepo structure with separate client and server di
 - **UI Framework**: Radix UI components with shadcn/ui design system
 - **Styling**: Tailwind CSS with custom design tokens and CSS variables
 - **Routing**: Wouter for lightweight client-side routing
-- **State Management**: TanStack Query (React Query) for server state management
+- **State Management**: Local React state (no server state needed)
 - **Form Handling**: React Hook Form with Zod validation
 
-### Backend Architecture
-- **Runtime**: Node.js with Express.js framework
-- **Language**: TypeScript with ES modules
-- **Database**: PostgreSQL with Drizzle ORM
-- **Database Provider**: Neon Database (serverless PostgreSQL)
-- **API Design**: RESTful endpoints with JSON responses
-- **Validation**: Zod schemas for request/response validation
+### Deployment Architecture  
+- **Hosting**: GitHub Pages (static hosting)
+- **Build**: Vite static site generation
+- **Contact Form**: Email integration via mailto: links
+- **Assets**: Client-side only, no server dependencies
+- **CI/CD**: GitHub Actions for automatic deployment
 
 ## Key Components
 
-### Database Layer
-- **ORM**: Drizzle ORM with TypeScript-first approach
-- **Schema Location**: `shared/schema.ts` - contains database tables and validation schemas
-- **Tables**: 
-  - `users` - User management (username, password)
-  - `contact_messages` - Contact form submissions (name, email, subject, message, timestamp)
-- **Migrations**: Stored in `./migrations` directory
-- **Configuration**: `drizzle.config.ts` with PostgreSQL dialect
-
-### API Layer
-- **Contact Endpoint**: `POST /api/contact` - Handles contact form submissions
-- **Admin Endpoint**: `GET /api/contact-messages` - Retrieves all contact messages
-- **Validation**: Zod schemas ensure data integrity
-- **Error Handling**: Structured error responses with appropriate HTTP status codes
+### Contact Integration
+- **Contact Form**: Uses mailto: links for email integration
+- **Validation**: Client-side form validation with Zod schemas
+- **User Experience**: Toast notifications for user feedback
+- **Email Integration**: Opens default email client with pre-filled contact information
 
 ### Frontend Components
 - **Navigation**: Fixed header with smooth scroll navigation
@@ -63,11 +53,9 @@ The architecture follows a monorepo structure with separate client and server di
 ### Contact Form Submission
 1. User fills out contact form in the frontend
 2. React Hook Form validates data client-side using Zod schema
-3. Form data submitted to `POST /api/contact` endpoint
-4. Server validates data using shared Zod schema
-5. Data stored in PostgreSQL database via Drizzle ORM
-6. Success/error response returned to client
-7. Toast notification displays result to user
+3. Form data compiled into mailto: link with pre-filled information
+4. Default email client opens with contact details
+5. Toast notification provides user feedback
 
 ### Content Rendering
 1. Static content rendered from component data
@@ -95,28 +83,33 @@ The architecture follows a monorepo structure with separate client and server di
 ## Deployment Strategy
 
 ### Development Environment
-- **Local Development**: `npm run dev` starts both frontend and backend
+- **Local Development**: `npm run dev` starts the Vite development server
 - **Hot Module Replacement**: Vite provides instant updates during development
 - **TypeScript Checking**: `npm run check` for type validation
-- **Database Sync**: `npm run db:push` for schema synchronization
+- **Preview Build**: `npm run preview` to test production build locally
 
 ### Production Build
-- **Frontend Build**: Vite builds optimized static assets to `dist/public`
-- **Backend Build**: ESBuild bundles server code to `dist/index.js`
-- **Single Command**: `npm run build` handles both frontend and backend
-- **Production Start**: `npm start` runs the bundled application
+- **Static Build**: Vite builds optimized static assets to `dist/`
+- **GitHub Pages**: Automatic deployment via GitHub Actions
+- **Single Command**: `npm run build` creates production-ready static files
+- **No Server**: Fully client-side application, no backend required
 
-### Database Management
-- **Schema Definition**: Centralized in `shared/schema.ts`
-- **Migrations**: Drizzle Kit manages database migrations
-- **Environment Variables**: `DATABASE_URL` for database connection
-- **Connection Pooling**: Neon serverless handles connection management
+### GitHub Pages Deployment
+- **Repository Setup**: Enable GitHub Pages with GitHub Actions source
+- **Automatic Deployment**: Pushes to main branch trigger deployment
+- **Custom Domain**: Optional custom domain configuration supported
+- **SSL**: Automatic HTTPS via GitHub Pages
 
 ## Changelog
 
 ```
 Changelog:
 - June 28, 2025. Initial setup
+- June 28, 2025. Converted to static GitHub Pages deployment
+  - Removed Express server and database dependencies
+  - Updated contact form to use mailto: links
+  - Added GitHub Actions deployment workflow
+  - Optimized for static hosting compatibility
 ```
 
 ## User Preferences
