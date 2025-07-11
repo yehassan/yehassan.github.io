@@ -12,7 +12,7 @@ export default function Footer() {
         <div className="text-center">
           <h3 className="text-2xl font-bold mb-4">Yahia Hassan</h3>
           <p className="text-white/80 mb-8 max-w-2xl mx-auto">
-            Product Management Professional committed to building products that make a difference. Let's create something amazing together.
+            Product Management Professional committed to building awesome products. Let's create something amazing together.
           </p>
           
           <div className="flex justify-center space-x-6 mb-8">
@@ -38,13 +38,13 @@ export default function Footer() {
               onClick={() => scrollToSection('contact')}
               className="text-white/80 hover:text-accent transition-colors"
             >
-              Contact
+              Connect
             </button>
           </div>
           
           <div className="border-t border-white/20 pt-8">
             <p className="text-white/60 text-sm">
-              © 2024 Yahia Hassan. All rights reserved.
+              © 2025 Yahia Hassan. All rights reserved.
             </p>
           </div>
         </div>

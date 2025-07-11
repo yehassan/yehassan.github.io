@@ -19,54 +19,9 @@ export default function AboutSection() {
           </div>
           
           <div className="fade-in">
-            <h3 className="text-2xl font-bold text-secondary mb-6">Product Management Excellence</h3>
             <p className="text-gray-600 text-lg leading-relaxed mb-6">
-              With over 8 years of experience in product management, I specialize in transforming complex challenges into elegant solutions that drive business growth and user satisfaction. My approach combines strategic thinking with hands-on execution.
+              My path to product management has been non-linear. From managing quality systems on a $45 billion infrastructure project, to co-founding an ad-tech startup, to building AI-assisted sports data generation platforms, each experience taught me that the best products emerge from truly understanding both user needs and business realities.
             </p>
-            <p className="text-gray-600 text-lg leading-relaxed mb-8">
-              I've successfully launched multiple products from concept to market, working with cross-functional teams to deliver exceptional user experiences. My expertise spans agile methodologies, user research, data analysis, and stakeholder management.
-            </p>
-            
-            <div className="grid grid-cols-2 gap-6">
-              <div className="text-center p-4 bg-neutral rounded-lg">
-                <div className="text-2xl font-bold text-primary mb-2">50+</div>
-                <div className="text-gray-600 font-medium">Products Launched</div>
-              </div>
-              <div className="text-center p-4 bg-neutral rounded-lg">
-                <div className="text-2xl font-bold text-primary mb-2">$10M+</div>
-                <div className="text-gray-600 font-medium">Revenue Generated</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        {/* Skills Section */}
-        <div className="mt-20 fade-in">
-          <h3 className="text-2xl font-bold text-secondary text-center mb-12">Core Competencies</h3>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="text-center p-6 bg-white rounded-xl shadow-lg hover-scale">
-              <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Lightbulb className="text-primary h-8 w-8" />
-              </div>
-              <h4 className="text-lg font-semibold text-secondary mb-2">Strategic Planning</h4>
-              <p className="text-gray-600">Product roadmap development and strategic vision alignment</p>
-            </div>
-            
-            <div className="text-center p-6 bg-white rounded-xl shadow-lg hover-scale">
-              <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Users className="text-primary h-8 w-8" />
-              </div>
-              <h4 className="text-lg font-semibold text-secondary mb-2">User Research</h4>
-              <p className="text-gray-600">User interviews, usability testing, and persona development</p>
-            </div>
-            
-            <div className="text-center p-6 bg-white rounded-xl shadow-lg hover-scale">
-              <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                <TrendingUp className="text-primary h-8 w-8" />
-              </div>
-              <h4 className="text-lg font-semibold text-secondary mb-2">Data Analytics</h4>
-              <p className="text-gray-600">KPI tracking, A/B testing, and performance optimization</p>
-            </div>
           </div>
         </div>
       </div>

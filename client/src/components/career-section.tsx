@@ -2,26 +2,26 @@ export default function CareerSection() {
   const experiences = [
     {
       title: "Senior Product Manager",
-      company: "TechCorp Solutions",
-      period: "2021 - Present",
-      description: "Leading product strategy for a $5M ARR SaaS platform, managing a portfolio of features used by 50,000+ active users. Implemented data-driven product decisions that increased user engagement by 35% and reduced churn by 22%.",
-      skills: ["Product Strategy", "Agile Development", "User Analytics", "Stakeholder Management"],
+      company: "Hudl (from Hudl Statsbomb)",
+      period: "2020 - Present",
+      description: "Leading product development on a sports data generation platform that powers a $2M ARR analytics product. Built the platform for American football event data generation and reduced data generation time by 50%.",
+      skills: ["Product Strategy", "Agile Development", "Product Design", "AI/ML Integration"],
       image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&h=120"
     },
     {
-      title: "Product Manager",
-      company: "InnovateLab",
-      period: "2019 - 2021",
-      description: "Launched 3 successful mobile applications from concept to market, achieving 100K+ downloads within first 6 months. Collaborated with design and engineering teams to deliver user-centric solutions in fast-paced startup environment.",
-      skills: ["Mobile Products", "Go-to-Market", "Cross-functional Leadership", "User Research"],
+      title: "Product Manager and Head of New Business Lines",
+      company: "WUZZUF",
+      period: "2019 - 2020",
+      description: "Delivered the beta of WUZZUF Learning, an online learning marketplace serving 100K+ users in MENA.",
+      skills: ["Market Research", "Go-to-Market", "Cross-functional Leadership", "User Research"],
       image: "https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&h=120"
     },
     {
-      title: "Associate Product Manager",
-      company: "Digital Dynamics",
+      title: "Co-founder and Head of Product",
+      company: "Controlcast",
       period: "2017 - 2019",
-      description: "Started career managing feature development for enterprise software solutions. Gained expertise in requirements gathering, user story creation, and cross-team coordination while supporting products serving Fortune 500 clients.",
-      skills: ["Enterprise Software", "Requirements Analysis", "Client Relations", "Feature Development"],
+      description: "Started product management career launching ad-tech startup from 0 to 1 doing $250K+ GMV in the first year, bootstrapped.",
+      skills: ["0-to-1", "Entrepreneurial Leadership", "Business and Product Strategy", "Product Design"],
       image: "https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&h=120"
     }
   ];
@@ -30,7 +30,7 @@ export default function CareerSection() {
     <section className="py-20 bg-neutral" id="career">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16 fade-in">
-          <h2 className="text-3xl md:text-4xl font-bold text-secondary mb-4">Career Journey</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-secondary mb-4">Product Management Career Journey</h2>
           <div className="w-24 h-1 bg-primary mx-auto mb-4"></div>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
             A track record of driving product success across diverse industries and company stages

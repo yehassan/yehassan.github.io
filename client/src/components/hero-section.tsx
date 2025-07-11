@@ -23,10 +23,10 @@ export default function HeroSection() {
             Hi, I'm <span className="text-accent">Yahia Hassan</span>
           </h1>
           <p className="text-xl md:text-2xl text-white/90 mb-8 font-light">
-            Experienced Product Management Professional
+            Product Management Leader
           </p>
           <p className="text-lg text-white/80 max-w-2xl mx-auto mb-12 leading-relaxed">
-            Driving innovation and growth through strategic product development, user-centered design, and data-driven decision making. Passionate about building products that solve real problems and create meaningful impact.
+            Currently leading sports data generation platform development at Hudl. I am passionate about solving uncommon problems and helping businesses grow.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

@@ -1,58 +1,31 @@
 export default function PortfolioSection() {
   const projects = [
     {
-      title: "FinTech Mobile App",
-      description: "Led development of mobile banking app with 250K+ active users. Achieved 4.8 App Store rating and 40% increase in digital engagement.",
-      tags: ["Mobile", "FinTech"],
+      title: "Global Football Event Data Generation Platform",
+      description: "Led development of Global football event data generation app that provides all  event data for Hudl Statsbomb.",
+      tags: ["Data Product", "AI/ML","Sports Analytics"],
       metric: "$2M ARR",
-      status: "Launched",
+      status: "Live",
       statusColor: "green",
       image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400"
     },
     {
-      title: "SaaS Analytics Platform",
-      description: "Built comprehensive analytics platform serving 1000+ enterprise clients. Reduced customer churn by 30% through actionable insights.",
-      tags: ["SaaS", "B2B"],
-      metric: "$5M ARR",
+      title: "American Football Event Data Generation Platform",
+      description: "Led development of American football event data generation app that provides all FBS, FCS, and NFL event data for HudlIQ.",
+      tags: ["Data Product", "AI/ML", "Sports Analytics"],
+      metric: "$500K ARR",
       status: "Live",
-      statusColor: "blue",
+      statusColor: "green",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400"
     },
     {
-      title: "E-commerce Platform",
-      description: "Launched marketplace platform connecting 500+ vendors with 50K+ customers. Achieved 25% month-over-month growth.",
+      title: "Digital Out-of-Home Advertising Marketplace",
+      description: "Co-founded, bootstrapped, and led product on a marketplace platform connecting 100+ digital out of home screens with 2000+ customers.",
       tags: ["E-commerce", "Marketplace"],
-      metric: "$3M GMV",
-      status: "Success",
-      statusColor: "green",
+      metric: "$500K GMV",
+      status: "Startup",
+      statusColor: "blue",
       image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400"
-    },
-    {
-      title: "AI-Powered Tool",
-      description: "Developed machine learning product for automated customer insights. Improved decision-making speed by 60% for product teams.",
-      tags: ["AI/ML", "Innovation"],
-      metric: "Patent Filed",
-      status: "Beta",
-      statusColor: "purple",
-      image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400"
-    },
-    {
-      title: "Team Collaboration Tool",
-      description: "Built remote collaboration platform used by 10K+ distributed teams. Increased team productivity metrics by 45%.",
-      tags: ["Collaboration", "Remote Work"],
-      metric: "10K Users",
-      status: "Growth",
-      statusColor: "yellow",
-      image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400"
-    },
-    {
-      title: "HealthTech Platform",
-      description: "Launched patient management system used by 200+ healthcare providers. Improved patient outcomes and reduced administrative time by 35%.",
-      tags: ["HealthTech", "B2B"],
-      metric: "200+ Providers",
-      status: "Impact",
-      statusColor: "green",
-      image: "https://pixabay.com/get/g6bf74cf5c0da5c3f5991b5ab43312ebb9c94f71bbf6253a633144f4af555d9b05c59235c831fe2c6280c29efb53ab598db692a8222316659960db991bb863127_1280.jpg"
     }
   ];
 
