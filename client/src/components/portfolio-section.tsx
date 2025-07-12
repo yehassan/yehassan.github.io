@@ -3,20 +3,20 @@ export default function PortfolioSection() {
     {
       title: "Global Football Event Data Generation Platform",
       description: "Led development of Global football event data generation app that provides all  event data for Hudl Statsbomb.",
-      tags: ["Data Product", "AI/ML","Sports Analytics"],
+      tags: ["Data Product", "AI/ML"],
       metric: "$2M ARR",
       status: "Live",
       statusColor: "green",
-      image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400"
+      image: "https://github.com/yehassan/yehassan.github.io/raw/main/assets/images/hudlsbradar.png"
     },
     {
       title: "American Football Event Data Generation Platform",
       description: "Led development of American football event data generation app that provides all FBS, FCS, and NFL event data for HudlIQ.",
-      tags: ["Data Product", "AI/ML", "Sports Analytics"],
+      tags: ["Data Product", "AI/ML"],
       metric: "$500K ARR",
       status: "Live",
       statusColor: "green",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400"
+      image: "https://github.com/yehassan/yehassan.github.io/raw/main/assets/images/hudliq.png"
     },
     {
       title: "Digital Out-of-Home Advertising Marketplace",
@@ -25,7 +25,7 @@ export default function PortfolioSection() {
       metric: "$500K GMV",
       status: "Startup",
       statusColor: "blue",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400"
+      image: "https://github.com/yehassan/yehassan.github.io/raw/main/assets/images/controlcastdiagram.png"
     }
   ];
 

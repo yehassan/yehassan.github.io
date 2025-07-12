@@ -37,8 +37,30 @@ export default function ContactSection() {
               </div>
             </div>
             
+            {/* Newsletter Subscription Section */}
+            <div className="bg-white rounded-2xl shadow-lg p-8 hover-scale mt-8">
+              <div className="text-center mb-6">
+                <h3 className="text-xl font-semibold text-secondary mb-2">Stay Updated</h3>
+                <p className="text-gray-600 text-sm max-w-md mx-auto">
+                  Subscribe to my newsletter for insights on product management, industry trends, and career growth
+                </p>
+              </div>
+              
+              <div className="flex justify-center">
+                <iframe 
+                  src="https://yahiahassan.substack.com/embed" 
+                  width="480" 
+                  height="320" 
+                  style={{border: '1px solid #EEE', background: 'white'}}
+                  frameBorder="0" 
+                  scrolling="no"
+                  className="rounded-lg shadow-sm"
+                ></iframe>
+              </div>
+            </div>
+            
             {/* Additional subtle call-to-action */}
-            <p className="text-gray-500 text-sm">
+            <p className="text-gray-500 text-sm mt-6">
               Always open to discussing product management, innovation, and new opportunities
             </p>
           </div>

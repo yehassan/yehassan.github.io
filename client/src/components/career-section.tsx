@@ -6,7 +6,7 @@ export default function CareerSection() {
       period: "2020 - Present",
       description: "Leading product development on a sports data generation platform that powers a $2M ARR analytics product. Built the platform for American football event data generation and reduced data generation time by 50%.",
       skills: ["Product Strategy", "Agile Development", "Product Design", "AI/ML Integration"],
-      image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&h=120"
+      image: "https://github.com/yehassan/yehassan.github.io/raw/main/assets/images/hudlprint.png"
     },
     {
       title: "Product Manager and Head of New Business Lines",
@@ -14,7 +14,7 @@ export default function CareerSection() {
       period: "2019 - 2020",
       description: "Delivered the beta of WUZZUF Learning, an online learning marketplace serving 100K+ users in MENA.",
       skills: ["Market Research", "Go-to-Market", "Cross-functional Leadership", "User Research"],
-      image: "https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&h=120"
+      image: "https://github.com/yehassan/yehassan.github.io/raw/main/assets/images/wuzzuflogo.png"
     },
     {
       title: "Co-founder and Head of Product",
@@ -22,7 +22,7 @@ export default function CareerSection() {
       period: "2017 - 2019",
       description: "Started product management career launching ad-tech startup from 0 to 1 doing $250K+ GMV in the first year, bootstrapped.",
       skills: ["0-to-1", "Entrepreneurial Leadership", "Business and Product Strategy", "Product Design"],
-      image: "https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&h=120"
+      image: "https://github.com/yehassan/yehassan.github.io/raw/main/assets/images/controlcastlogo1.png"
     }
   ];
 

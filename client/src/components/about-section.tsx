@@ -12,8 +12,8 @@ export default function AboutSection() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="fade-in">
             <img 
-              src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" 
-              alt="Modern workspace showcasing product management environment" 
+              src="https://github.com/yehassan/yehassan.github.io/raw/main/assets/images/myjourney.png" 
+              alt="A winding path showing my journey" 
               className="rounded-2xl shadow-2xl w-full h-auto" 
             />
           </div>
