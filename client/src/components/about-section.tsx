@@ -1,28 +1,42 @@
-import { Lightbulb, Users, TrendingUp } from "lucide-react";
+import { Check } from "lucide-react";
+import myJourney from "@assets/images/myjourney.png";
 
 export default function AboutSection() {
+  const skills = [
+    "Product Strategy & Vision",
+    "Agile & Scrum Methodologies",
+    "Big Data & Analytics",
+    "AI/ML Product Development",
+    "User-Centered Design",
+    "Go-to-Market Strategy"
+  ];
+
   return (
-    <section className="py-20 bg-white" id="about">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16 fade-in">
-          <h2 className="text-3xl md:text-4xl font-bold text-secondary mb-4">About Me</h2>
-          <div className="w-24 h-1 bg-primary mx-auto"></div>
+    <section className="bg-white py-20 px-4" id="about">
+      <div className="container mx-auto grid md:grid-cols-2 gap-12 items-center">
+        <div className="fade-in-left">
+          <img 
+            src={myJourney} 
+            alt="My Journey" 
+            className="rounded-lg shadow-2xl w-full" 
+          />
         </div>
-        
-        <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div className="fade-in">
-            <img 
-              src="https://github.com/yehassan/yehassan.github.io/raw/main/assets/images/myjourney.png" 
-              alt="A winding path showing my journey" 
-              className="rounded-2xl shadow-2xl w-full h-auto" 
-            />
+        <div className="fade-in-right">
+          <h2 className="text-3xl font-bold text-secondary mb-6">About Me</h2>
+          <p className="text-gray-600 mb-6 leading-relaxed">
+            I am a product leader with a track record of delivering innovative and impactful products in the sports technology and data analytics sectors. My expertise lies in translating complex user needs into successful product strategies, from conception to launch and beyond.
+          </p>
+          <div className="grid grid-cols-2 gap-4 mb-6">
+            {skills.map((skill, index) => (
+              <div key={index} className="flex items-center">
+                <Check className="h-5 w-5 text-primary mr-2" />
+                <span className="text-gray-700">{skill}</span>
+              </div>
+            ))}
           </div>
-          
-          <div className="fade-in">
-            <p className="text-gray-600 text-lg leading-relaxed mb-6">
-              My path to product management has been non-linear. From managing quality systems on a $45 billion infrastructure project, to co-founding an ad-tech startup, to building AI-assisted sports data generation platforms, each experience taught me that the best products emerge from truly understanding both user needs and business realities.
-            </p>
-          </div>
+          <p className="text-gray-600 leading-relaxed">
+            I thrive in fast-paced, collaborative environments and am passionate about building high-performing teams to tackle ambitious goals. My approach is data-driven, customer-focused, and always aimed at creating exceptional value.
+          </p>
         </div>
       </div>
     </section>

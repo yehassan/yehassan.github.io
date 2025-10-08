@@ -1,71 +1,53 @@
-export default function CareerSection() {
-  const experiences = [
-    {
-      title: "Senior Product Manager",
-      company: "Hudl (from Hudl Statsbomb)",
-      period: "2020 - Present",
-      description: "Leading product development on a sports data generation platform that powers a $2M ARR analytics product. Built the platform for American football event data generation and reduced data generation time by 50%.",
-      skills: ["Product Strategy", "Agile Development", "Product Design", "AI/ML Integration"],
-      image: "https://github.com/yehassan/yehassan.github.io/raw/main/assets/images/hudlprint.png"
-    },
-    {
-      title: "Product Manager and Head of New Business Lines",
-      company: "WUZZUF",
-      period: "2019 - 2020",
-      description: "Delivered the beta of WUZZUF Learning, an online learning marketplace serving 100K+ users in MENA.",
-      skills: ["Market Research", "Go-to-Market", "Cross-functional Leadership", "User Research"],
-      image: "https://github.com/yehassan/yehassan.github.io/raw/main/assets/images/wuzzuflogo.png"
-    },
-    {
-      title: "Co-founder and Head of Product",
-      company: "Controlcast",
-      period: "2017 - 2019",
-      description: "Started product management career launching ad-tech startup from 0 to 1 doing $250K+ GMV in the first year, bootstrapped.",
-      skills: ["0-to-1", "Entrepreneurial Leadership", "Business and Product Strategy", "Product Design"],
-      image: "https://github.com/yehassan/yehassan.github.io/raw/main/assets/images/controlcastlogo1.png"
-    }
-  ];
+import { Briefcase } from "lucide-react";
+import hudlprint from "@assets/images/hudlprint.png";
+import wuzzuflogo from "@assets/images/wuzzuflogo.png";
+import controlcastlogo1 from "@assets/images/controlcastlogo1.png";
 
+const careerData = [
+  {
+    company: "Hudl",
+    role: "Sr. Product Manager, Sports Data",
+    period: "2021 - Present",
+    description: "Led product strategy and development for Hudl's sports data generation platforms, including the migration to a big data architecture and the launch of AI-powered analysis tools.",
+    image: hudlprint
+  },
+  {
+    company: "WUZZUF",
+    role: "Sr. Product Manager, B2B",
+    period: "2019 - 2021",
+    description: "Managed the B2B product suite for Egypt's leading online recruitment platform, focusing on employer-facing tools and driving significant growth in customer acquisition and retention.",
+    image: wuzzuflogo
+  },
+  {
+    company: "Controlcast",
+    role: "Co-Founder & Head of Product",
+    period: "2016 - 2019",
+    description: "Co-founded and led product development for a digital out-of-home advertising marketplace, from initial concept to a platform with over 2000 customers and 100+ screens.",
+    image: controlcastlogo1
+  }
+];
+
+export default function CareerSection() {
   return (
-    <section className="py-20 bg-neutral" id="career">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16 fade-in">
-          <h2 className="text-3xl md:text-4xl font-bold text-secondary mb-4">Product Management Career Journey</h2>
-          <div className="w-24 h-1 bg-primary mx-auto mb-4"></div>
-          <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-            A track record of driving product success across diverse industries and company stages
-          </p>
-        </div>
-        
-        <div className="space-y-12">
-          {experiences.map((experience, index) => (
-            <div key={index} className="bg-white rounded-2xl shadow-lg p-8 hover-scale fade-in">
-              <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-6">
-                <div>
-                  <h3 className="text-xl font-bold text-secondary mb-2">{experience.title}</h3>
-                  <h4 className="text-lg text-primary font-semibold mb-2">{experience.company}</h4>
-                  <p className="text-gray-500">{experience.period}</p>
+    <section className="py-20 px-4 bg-gray-50" id="career">
+      <div className="container mx-auto">
+        <h2 className="text-3xl font-bold text-center mb-12">My Career Journey</h2>
+        <div className="relative">
+          <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-gray-200"></div>
+          {careerData.map((job, index) => (
+            <div key={index} className={`flex items-center w-full mb-8 ${index % 2 === 0 ? 'justify-start' : 'justify-end'}`}>
+              <div className={`w-1/2 ${index % 2 === 0 ? 'pr-8' : 'pl-8'}`}>
+                <div className="bg-white p-6 rounded-lg shadow-md">
+                  <div className="flex items-center mb-4">
+                    <img src={job.image} alt={`${job.company} logo`} className="h-10 w-10 mr-4"/>
+                    <div>
+                      <h3 className="text-xl font-bold">{job.company}</h3>
+                      <p className="text-gray-500">{job.role}</p>
+                      <p className="text-sm text-gray-400">{job.period}</p>
+                    </div>
+                  </div>
+                  <p className="text-gray-600">{job.description}</p>
                 </div>
-                <div className="mt-4 md:mt-0">
-                  <img 
-                    src={experience.image}
-                    alt={`${experience.company} office`}
-                    className="w-32 h-20 object-cover rounded-lg shadow-md" 
-                  />
-                </div>
-              </div>
-              <p className="text-gray-600 mb-4 leading-relaxed">
-                {experience.description}
-              </p>
-              <div className="flex flex-wrap gap-2">
-                {experience.skills.map((skill, skillIndex) => (
-                  <span 
-                    key={skillIndex}
-                    className="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm font-medium"
-                  >
-                    {skill}
-                  </span>
-                ))}
               </div>
             </div>
           ))}

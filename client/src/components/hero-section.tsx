@@ -1,4 +1,5 @@
 import { ChevronDown } from "lucide-react";
+import heroImage from "@assets/images/heroyahia.jpg";
 
 export default function HeroSection() {
   const scrollToSection = (sectionId: string) => {
@@ -14,7 +15,7 @@ export default function HeroSection() {
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="fade-in">
           <img 
-            src="https://github.com/yehassan/yehassan.github.io/raw/main/assets/images/heroyahia.jpg" 
+            src={heroImage} 
             alt="Yahia Hassan Professional Photo" 
             className="w-32 h-32 rounded-full mx-auto mb-8 border-4 border-white/20 shadow-2xl object-cover" 
           />
