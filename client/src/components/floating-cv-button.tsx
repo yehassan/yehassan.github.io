@@ -3,7 +3,7 @@ import { Download } from "lucide-react";
 export default function FloatingCVButton() {
   const handleCVDownload = () => {
     // Replace with actual Google Drive PDF link
-    window.open("https://bit.ly/yhassanCVfeb2025", "_blank", "noopener,noreferrer");
+    window.open("https://drive.google.com/file/d/1iTdJO-VvRywhkgNl8choPJnVRZYnM1zY/view?usp=sharing", "_blank", "noopener,noreferrer");
   };
 
   return (

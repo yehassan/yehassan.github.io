@@ -4,7 +4,7 @@ export default function PortfolioSection() {
       title: "Global Football Event Data Generation Platform",
       description: "Led development of Global football event data generation app that provides all  event data for Hudl Statsbomb.",
       tags: ["Data Product", "AI/ML"],
-      metric: "$2M ARR",
+      metric: "$11M ARR",
       status: "Live",
       statusColor: "green",
       image: "https://github.com/yehassan/yehassan.github.io/raw/main/assets/images/hudlsbradar.png"
@@ -13,7 +13,7 @@ export default function PortfolioSection() {
       title: "American Football Event Data Generation Platform",
       description: "Led development of American football event data generation app that provides all FBS, FCS, and NFL event data for HudlIQ.",
       tags: ["Data Product", "AI/ML"],
-      metric: "$500K ARR",
+      metric: "$2M ARR",
       status: "Live",
       statusColor: "green",
       image: "https://github.com/yehassan/yehassan.github.io/raw/main/assets/images/hudliq.png"
