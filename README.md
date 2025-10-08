@@ -1,6 +1,7 @@
-# Yahia Hassan - Portfolio Website
+<!-- trigger deployment -->
+# My Portfolio Site
 
-A modern, professional portfolio website for product management professional Yahia Hassan, built with React, TypeScript, and Tailwind CSS.
+This is the source code for my portfolio site.
 
 ## Features
 
