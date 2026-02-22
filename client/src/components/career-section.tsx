@@ -8,7 +8,7 @@ export default function CareerSection() {
       title: "Senior Product Manager",
       company: "Hudl (from Hudl Statsbomb)",
       period: "2020 - Present",
-      description: "Leading product development on a sports data generation platform that powers a $2M ARR analytics product. Built the platform for American football event data generation and reduced data generation time by 50%.",
+      description: "Leading product development on a sports data generation platform that powers a $9M ARR analytics product. Built the platform for American football event data generation that power a $2M ARR analytics product. Reduced data generation time by 50%.",
       skills: ["Product Strategy", "Agile Development", "Product Design", "AI/ML Integration"],
       image: hudlprint
     },
@@ -24,7 +24,7 @@ export default function CareerSection() {
       title: "Co-founder and Head of Product",
       company: "Controlcast",
       period: "2017 - 2019",
-      description: "Started product management career launching ad-tech startup from 0 to 1 doing $250K+ GMV in the first year, bootstrapped.",
+      description: "Started product management career launching ad-tech startup from 0 to 1 doing an average of $250K+ GMV per year, bootstrapped.",
       skills: ["0-to-1", "Entrepreneurial Leadership", "Business and Product Strategy", "Product Design"],
       image: controlcastlogo1
     }

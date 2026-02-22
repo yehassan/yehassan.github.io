@@ -44,7 +44,7 @@ export default function Footer() {
           
           <div className="border-t border-white/20 pt-8">
             <p className="text-white/60 text-sm">
-              © 2025 Yahia Hassan. All rights reserved.
+              © 2026 Yahia Hassan. All rights reserved.
             </p>
           </div>
         </div>

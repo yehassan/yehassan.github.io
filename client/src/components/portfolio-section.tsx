@@ -8,7 +8,7 @@ export default function PortfolioSection() {
       title: "Global Football Event Data Generation Platform",
       description: "Led development of Global football event data generation app that provides all  event data for Hudl Statsbomb.",
       tags: ["Data Product", "AI/ML"],
-      metric: "1M ARR",
+      metric: "$9M ARR",
       status: "Live",
       statusColor: "green",
       image: hudlsbradar
@@ -24,9 +24,9 @@ export default function PortfolioSection() {
     },
     {
       title: "Digital Out-of-Home Advertising Marketplace",
-      description: "Co-founded, bootstrapped, and led product on a marketplace platform connecting 100+ digital out of home screens with 2000+ customers.",
+      description: "Co-founded, bootstrapped, and led product on a marketplace platform connecting 100+ digital out of home screens with 2000+ customers. Shutdown after four years.",
       tags: ["E-commerce", "Marketplace"],
-      metric: "$500K GMV",
+      metric: "$250K GMV",
       status: "Startup",
       statusColor: "blue",
       image: controlcastdiagram
