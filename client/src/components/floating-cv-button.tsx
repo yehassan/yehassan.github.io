@@ -2,8 +2,7 @@ import { Download } from "lucide-react";
 
 export default function FloatingCVButton() {
   const handleCVDownload = () => {
-    // Replace with actual Google Drive PDF link
-    window.open("https://drive.google.com/file/d/1iTdJO-VvRywhkgNl8choPJnVRZYnM1zY/view?usp=sharing", "_blank", "noopener,noreferrer");
+    window.open("/Yahia_Hassan_CV_GPM_Head.pdf", "_blank");
   };
 
   return (
