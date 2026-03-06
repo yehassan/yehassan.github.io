@@ -46,12 +46,12 @@ export default function ContactSection() {
                 </p>
               </div>
               
-              <div className="flex justify-center">
+              <div className="flex justify-center w-full">
                 <iframe 
                   src="https://yahiahassan.substack.com/embed" 
-                  width="480" 
+                  width="100%" 
                   height="320" 
-                  style={{border: '1px solid #EEE', background: 'white'}}
+                  style={{border: '1px solid #EEE', background: 'white', maxWidth: '480px'}}
                   frameBorder="0" 
                   scrolling="no"
                   className="rounded-lg shadow-sm"
